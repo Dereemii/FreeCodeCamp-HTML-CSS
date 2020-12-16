@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+body{
+    background-color: #eeeeee;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    padding: 0.5em;  
+}
+
+.logo{
+    display: inline;
+    float: left;
+    margin: 1em;
+    clear: both;
+    margin-left: 5em;
+    font-family: 'Lobster Two', cursive;   
+}
+
+.logo2{
+    display: inline;
+    font-family: 'Lobster Two', cursive;   
+}
+#nav-bar{
+    float: right;
+    margin: 1em 3em;    
+}
+
+#main{
+    margin-top: 80px;
+    text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: #f3e5f5;
+    margin-left: 19px;
+}
+.nav-link:hover{
+    color: #d1c4e9;
+}
+
+h2{
+    color: #311b92;
+    font-size: larger;
+}
+
+#youtube{
+    margin-top: 1em;
+}
+
+#newsletter{
+    background-color: #e0e0e0 ;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #ede7f6;
+    width: 420px;
+    height: 100px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#newsletter > p {
+    font-size: 12px;
+    margin: 2px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .nav-link{
+        display: none;
+    }
+  }
+
