@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.bg-purple{
+    background-color: palevioletred
+}
+.iconos{
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: darkred
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.img-titulo{
+  border-radius: 3px;
+  margin: auto;
+}
+
+#contacto{
+    margin: auto;
+    text-align: center;
+}
+
+
+.bg-salmon{
+    background-color:#EBEDE9;
+
+}
+
+p{
+    line-height: 3rem;
+    font-size: 20px;
+}
+
+div .nav-item{
+    font-size: 20px;
+}
+
+.project-tile{
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 150px;
+}
+
