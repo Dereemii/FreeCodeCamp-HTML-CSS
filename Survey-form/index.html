@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Survey-form/styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="container">
+  <header>
+    <h1 id="title"> Formulario de Inscripción<h1>
+        <p id="description">Gracias por ayudarnos a completar los datos.</p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Ingresa tu nombre</label>
+      <input id="name" type="text" placeholder="Ejemplo: Leslie" required></input>
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Ingresa tu Email</label>
+      <input id="email" type="email" placeholder="Ej: Leslie@gmail.com" required></input>
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="age" >Ingresa tu Edad (Opcional)</label>
+      <input id="number"
+             type="number"
+             name="age"
+             placeholder="Ejemplo: 30"
+             min="10" max="99"></input>
+    </div>
+  <div class="form-group">
+    <p>¿Cuál de los siguientes colores te gusta más?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Selecciona color</option>
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="rosado">Rosado</option>
+        <option value="otro">Otro</option>
+      </select>
+    </div>
+  
+   <div class="form-group">
+      <p>
+        Selecciona tus intereses
+        <span >(selecciona varios)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Front-end </label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Back-end </label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />Diseño UX/UI</label
+      >
+  
+
+      <div class="form-group">
+      <p>¿Volverías a tomar este formulario?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Claro que si</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />No lo sé</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+      <div class="form-group">
+      <p>¿Algo más que agregar?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Agrega tus comentarios aqui"
+      ></textarea>
+    </div>
+  <button id="submit">Enviar</button>
+  </form>
+  <main>
+</body>
+</html>
